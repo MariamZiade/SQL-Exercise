@@ -55,6 +55,14 @@ FROM students;"
 FROM students
 WHERE Points = 500;"
 
+"SELECT Name FROM students
+WHERE Name LIKE '%s%';"
+
+"SELECT Name
+FROM students
+ORDER BY Points DESC;"
+
+
 
 
 
