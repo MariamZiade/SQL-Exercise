@@ -26,3 +26,17 @@ Graduation NUMERIC
    ;"
 "UPDATE graduates SET Graduation = "08/09/2018" "
 "DELETE FROM students WHERE name = "Layal" " 
+
+Joins
+
+"SELECT employees.Name, employees.Company, companies.Date
+FROM employees
+INNER JOIN companies ON employees.Company=companies.Name;"
+
+"SELECT employees.Name
+FROM employees
+INNER JOIN companies ON employees.Company=companies.Name
+WHERE companies.DATE <2000;"
+
+"SELECT company FROM employees 
+WHERE Role = "Graphic Designer"
